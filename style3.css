@@ -1,0 +1,17 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    color:orangered;
+}
+
+a{
+    color:coral;
+}
+
+/* mouse over link */
+a:hover {
+    color: aqua;
+}
+

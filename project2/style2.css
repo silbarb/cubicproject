@@ -1,0 +1,16 @@
+body{background-color: aqua;
+}
+
+#orderedlist{background-color: darkorange;
+   
+    margin: 50px;
+     padding: 20px;
+}
+
+#unorderedlist{background-color: orange;
+    padding: 20px;
+    margin: 50px;
+}
+
+#link{color: darkmagenta;
+}

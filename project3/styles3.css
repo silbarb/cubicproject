@@ -1,0 +1,20 @@
+body{
+    background-color: lightyellow
+}
+
+table{
+    background-color: turquoise;
+    width: 100%;
+}
+
+thead{
+    width: 150%;
+    background-color: wheat;
+    border-color: black;
+    border-width: 100%;
+}
+
+tbody{
+    border-bottom-width: 150px;
+    border-bottom-color: red;
+}

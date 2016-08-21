@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+
+    <head>
+        
+    <link rel="stylesheet" href="\project4\node_modules\bootstrap\dist\css\bootstrap.css">
+
+        <title> assignment </title>
+        
+    </head>
+    
+    <body>
+    
+        <form name="form1" method="get">
+            <table class="table table-condensed table-hover table-stripped">
+                <thead>
+                    <tr>
+                        <th> Fill out the form </th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                
+                    <tr>
+                        <td> First Name </td>
+                        <td> <input type="text"
+                                    name="fname"
+                                    id="fname"
+                                    placeholder="Enter Firstname"
+                                    value=""></td>
+                    </tr>
+                    
+                    <tr>
+                    
+                        <td> Last Name </td>
+                        <td> <input type="text"
+                                    name="lname"
+                                    id="lname"
+                                    placeholder="Enter Lastname"
+                                    value=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td> Gender </td>
+                        <td> <input type="radio" 
+                                    id="male"
+                                    name="gender"
+                                    value="">male 
+                        &nbsp; &nbsp;
+                            
+                        <input type="radio"
+                               id="female"
+                               name="gender"
+                               value="">female
+                         &nbsp; &nbsp;
+                            
+                        <input type="radio"
+                               id="anyother"
+                               name="gender"
+                               value="">any other
+                        </td>
+                    </tr>
+                        
+                        <tr>
+                            <td> Countries </td>
+                            <td>
+                            <select name="countries">
+                                <option value="Afganistan">Afganistan</option>
+                            
+                                <option value="Albania">Albania</option>
+                                
+                                <option value="Algeria">Algeria</option>
+                                
+                                <option value="China">China</option>
+                                        
+                                <option value="India">India</option>
+                                
+                                <option value="Nepal">Nepal</option> 
+                                
+                            </select>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        
+                        <td>Classes Taken:</td>
+                        <td> <input type="checkbox"                     name="Java"
+                                    value="Java">Java
+                            <br>
+                            
+                            <input type="checkbox"
+                                   name="UI"
+                                   value="UI">UI
+                            <br>
+                                         
+                            <input type="checkbox"
+                                   name="C#"
+                                   value="C#">C#
+                            <br>
+                            
+                            <input type="checkbox"
+                                   name="VMWare"
+                                   value="VMWare">VMWare
+                        
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <input type="submit" name="submit">
+        </form>
+    </body>
+</html>
